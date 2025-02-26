@@ -1,12 +1,12 @@
  #include <stdio.h> 
 
 int main(){
-
+// Declaração de variáveis
     char estado1, estado2, codigo1[3], codigo2[3], cidade1[50], cidade2[50], nome_cidade1[50], nome_cidade2[50], cidade3[50]; 
     int pont_turisticos1, pont_turisticos2; 
     float area1, area2, pib1, pib2, pib_per_capta1, pib_per_capta2, densidade_pop1, densidade_pop2, populacao1, populacao2;
 
-
+// interação com o usuário, onde ele irá informar os dados necessários para o funcionamento do programa
     printf("--- Cadastro das cartas de super trunfo! ---\n"); 
     printf("\n");
 
@@ -71,7 +71,9 @@ int main(){
     pib_per_capta2 = pib2 / populacao2;
 
     printf("------------------------------------\n");
+// fim da interação com o usuário
 
+// resultado dos dados informados pelo usuário
     printf("Dados cadastrais das cartas informados pelo usuário: \n");
     printf("\n");
 

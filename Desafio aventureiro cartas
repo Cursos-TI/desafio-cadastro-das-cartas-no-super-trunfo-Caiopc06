@@ -22,9 +22,8 @@ int main(){
     scanf("%s", &codigo1); 
 
     printf("Digite o nome de sua cidade: "); 
-    fgets("%s", &nome_cidade1);
+    scanf("%s", &nome_cidade1);
    
-
     printf("Digite a população de sua cidade: "); 
     scanf("%d", &populacao1); 
 
@@ -52,7 +51,7 @@ int main(){
     scanf("%s", &codigo2); 
 
     printf("Digite o nome de sua cidade: "); 
-    fgets("%s", &nome_cidade2);
+    scanf("%s", &nome_cidade2);
 
     printf("Digite a população de sua cidade: "); 
     scanf("%d", &populacao2); 

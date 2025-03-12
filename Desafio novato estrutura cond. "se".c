@@ -1,11 +1,15 @@
-#include <stdio.h>
+// programa feito por: Caio Pereira Cavalcanti
+//Data: 12/03/25
+//Desafio novato estrutura condicional #se/if"
+
+#include <stdio.h> // começo do programa
 
 int main () {
-
+// Declaração das variáveis
     char estado1[50], estado2[50], codigo1[50], codigo2[50], nome_cidade1[50], nome_cidade2[50];
     int populacao1, populacao2, pont_turisticos1, pont_turisticos2;
     float area1, area2, pib1, pib2, dens_populacional1, dens_populacional2, pib_per_capta1, pib_per_capta2;
-
+// Começo do cadastro das cartas
     printf("--- Cadastro das cartas de super trunfo! ---\n"); 
     printf("\n");
 
@@ -36,9 +40,9 @@ int main () {
 
     dens_populacional1 == populacao1 / area1;
     pib_per_capta1 == pib1 / populacao1;
-
+// Fim cadastro da carta 1
     printf("------------------------------------\n"); 
-
+// Começo cadastro da carta 2
     printf("**Cadastro da carta 2: **"); 
     printf("\n");
 
@@ -65,10 +69,10 @@ int main () {
 
     dens_populacional2 == populacao2 / area2;
     pib_per_capta2 == pib2 / populacao2;
-
+// Fim cadastro da carta 2
     printf("------------------------------------\n"); // fim do armazenamento de dados pelo usuário
     printf("\n");
-
+// Começo da estrutura condicional "if" para ver qual carta ganhou nos atributos (numéricos)
     printf("***   Resultado do vencedor em cada atributo:   ***\n");
 
     if (populacao1 > populacao2){
@@ -105,10 +109,11 @@ int main () {
     else{
         printf("PIB per capta: Carta 2 venceu!\n");
     }
-
+// Fim dos resultados
     printf("\n");
 
     printf("***   Fim dos resultados   ***");
 
     return 0;
-}
+
+} // Fim do programa

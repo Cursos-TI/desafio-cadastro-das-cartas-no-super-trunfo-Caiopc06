@@ -1,6 +1,6 @@
 // programa feito por: Caio Pereira Cavalcanti
 //Data: 12/03/25
-//Desafio novato estrutura condicional #se/if"
+//Desafio aventureiro Desenvolvendo a lógica do jogo
 
 #include <stdio.h> // começo do programa
 

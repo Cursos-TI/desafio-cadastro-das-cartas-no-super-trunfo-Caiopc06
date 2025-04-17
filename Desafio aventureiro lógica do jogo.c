@@ -6,7 +6,7 @@
 
 int main () {
 // Declaração das variáveis
-    char nome_pais1[50], nome_pais2[50];
+    char * nome_pais1[50], nome_pais2[50];
     int populacao1, populacao2, pont_turisticos1, pont_turisticos2, opcao_escolhida;
     float area1, area2, pib1, pib2, dens_demografica1, dens_demografica2;
 // Começo do cadastro das cartas
@@ -79,7 +79,7 @@ int main () {
           printf("Valores: não existe.\n");
           printf("Carta vencedora: não existe.\n");
            if (nome_pais1 == nome_pais2) {
-            printf("Empate!");
+            printf("Empate!\n");
            }
         break;
         case 2:
@@ -87,11 +87,11 @@ int main () {
           printf("Atributo escolhido: População. \n");
           printf("Valores: carta1 (%d) X carta2 (%d).\n", populacao1, populacao2);
            if (populacao1 > populacao2) {
-            printf("Carta vencedora: Carta 1!");
+            printf("Carta vencedora: Carta 1!\n");
            } else if (populacao2 > populacao1){
-            printf("Carta vencedora: Carta 2!");
+            printf("Carta vencedora: Carta 2!\n");
            } else if (populacao1 == populacao2) {
-            printf("Empate!");
+            printf("Empate!\n");
            }
         break;
         case 3:
@@ -99,11 +99,11 @@ int main () {
           printf("Atributo escolhido: Área. \n");
           printf("Valores: carta1 (%.2f) X carta2 (%.2f).\n", area1, area2);
            if (area1 > area2) {
-            printf("Carta vencedora: Carta 1!");
+            printf("Carta vencedora: Carta 1!\n");
            } else if (area2 > area1){
-            printf("Carta vencedora: Carta 2!");
+            printf("Carta vencedora: Carta 2!\n");
            } else if (area1 == area2) {
-            printf("Empate!");
+            printf("Empate!\n");
            }
         break;
         case 4:
@@ -111,11 +111,11 @@ int main () {
           printf("Atributo escolhido: PIB. \n");
           printf("Valores: carta1 (%.2f) X carta2 (%.2f).\n", pib1, pib2);
            if (pib1 > pib2) {
-            printf("Carta vencedora: Carta 1!");
+            printf("Carta vencedora: Carta 1!\n");
            } else if (pib2> pib1){
-            printf("Carta vencedora: Carta 2!");
+            printf("Carta vencedora: Carta 2!\n");
            } else if (pib1 == pib2) {
-            printf("Empate!");
+            printf("Empate!\n");
            }
         break;
         case 5:
@@ -123,11 +123,11 @@ int main () {
           printf("Atributo escolhido: Número de pontos turísticos. \n");
           printf("Valores: carta1 (%d) X carta2 (%d).\n", pont_turisticos1, pont_turisticos2);
            if (pont_turisticos1 > pont_turisticos2) {
-            printf("Carta vencedora: Carta 1!");
+            printf("Carta vencedora: Carta 1!\n");
            } else if (pont_turisticos2 > pont_turisticos1){
-            printf("Carta vencedora: Carta 2!");
+            printf("Carta vencedora: Carta 2!\n");
            } else if (pont_turisticos1 == pont_turisticos2) {
-            printf("Empate!");
+            printf("Empate!\n");
            }
         break;
         case 6:
@@ -135,11 +135,11 @@ int main () {
           printf("Atributo escolhido: Densidade demográfica. \n");
           printf("Valores: carta1 (%.2f) X carta2 (%.2f).\n", dens_demografica1, dens_demografica2);
            if (dens_demografica1 > dens_demografica2) {
-            printf("Carta vencedora: Carta 2!");
+            printf("Carta vencedora: Carta 2!\n");
            } else if (dens_demografica2 > dens_demografica1){
-            printf("Carta vencedora: Carta 1!");
+            printf("Carta vencedora: Carta 1!\n");
            } else if (dens_demografica1 == dens_demografica2) {
-            printf("Empate!");
+            printf("Empate!\n");
            }
         break;
 
